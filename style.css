@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'logo';
+    src: url('fonts/logo.ttf');
+}
+@font-face {
+    font-family: 'main';
+    src: url('fonts/main.ttf');
+}
+@font-face {
+    font-family: 'mainbig';
+    src: url('fonts/mainbig.ttf');
+}
+body {
+    background: #171717;
+    margin: 0 0;
+}
+header {
+    text-align: center;
+    padding: 15px;
+    background: url('pictures/bg.png');
+    background-size: cover;
+    border-radius: 0 0 30px 30px;
+    font-size: 130%;
+}
+#red, #ip, #port {
+    color: #ff4055;
+    text-shadow: 0 0 20px #ff4055;
+}
+#white {
+    color: white;
+    text-shadow: 0 0 20px white;
+}
+.box, footer {
+    background: #242424;
+    padding: 15px;
+    border-radius: 30px;
+}
+.white {
+    color: white;
+}
+#tg {
+    width: 5%;
+    height: 5%;
+}
+button {
+    background-color: #55c1ff;
+    border-radius: 30px;
+    border: 0; loo popup""
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 0 20px #55c1ff;
+}
+h3 {
+    font-family: main;
+}
+h2 {
+    font-family: mainbig;
+}
+.logo {
+    font-family: logo;
+}
+footer {
+    background-image: url('pictures/bg.png');
+}
+button {
+    display: inline-block;
+}
+
+button img {
+    height: 15px;
+    width: 15px;
+}
+#invb {
+    background: transparent;
+    box-shadow: 0 0 0;
+    color: white;
+}
+#bar {
+    text-align: right;
+    padding-right: 15px;
+}
+#menu {
+    height: 30px;
+    width: 30px;
+}
